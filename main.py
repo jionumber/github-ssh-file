@@ -39,7 +39,7 @@ print(b)
 
 
 
-#question 8
+#question 9
 import random
 a = random.randint(1,9)
 x = int(input("guess some number :"))
