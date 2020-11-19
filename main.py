@@ -36,3 +36,17 @@ else:
 a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 b = [number for number in a if number % 2==0]
 print(b)
+
+
+
+#question 8
+import random
+a = random.randint(1,9)
+x = int(input("guess some number :"))
+print(a)
+if(x>a):
+    print("your number is too greater")
+elif(a==x):
+    print("you guessed right")
+else:
+    print("your number is too small")
