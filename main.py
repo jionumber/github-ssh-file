@@ -1,5 +1,5 @@
 #question 1
-#this is to check
+
 import datetime
 now = datetime.datetime.now()
 x = input("enter your name dear visitor:")
@@ -7,3 +7,13 @@ y = int(input("enter your age:"))
 z = now.year - y
 a = z + 100
 print(a)
+
+#question 2
+
+x = int(input("enter any number :"))
+if(x==0):
+    print("wrong input")
+elif(x%2==0):
+    print("it is an even number.....")
+else:
+    print("it is an odd number....")
