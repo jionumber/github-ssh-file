@@ -59,3 +59,16 @@ for i in range(2,x):
         break
 else:
     print("it is a prime number")
+    
+
+
+#question 12
+a = [5, 10, 15, 20, 25]
+print(a[0],a[-1])
+
+
+
+
+
+
+
